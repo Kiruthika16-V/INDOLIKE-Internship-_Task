@@ -1,1 +1,0 @@
-# INDOLIKE-Internship-_Task
