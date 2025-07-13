@@ -5,18 +5,6 @@
 
 This project performs customer segmentation using RFM analysis (Recency, Frequency, Monetary) on retail transaction data and applies KMeans clustering to group customers based on their purchasing behavior. The results are visualized in 2D and 3D plots.
 
- 
-
-
-
-
----
-
-
-
-
-
-
 ## ✅Features
 
 ✔️ Upload Excel retail data directly in Google Colab 
@@ -31,8 +19,6 @@ This project performs customer segmentation using RFM analysis (Recency, Frequen
 
 3D Plot: Recency, Frequency, and Monetary 
 ✔️ Display sample clustered customer data
-
-
 
 # Package and its Purpose
 
@@ -53,15 +39,11 @@ Strip column names, remove missing values
 
 Filter rows where Quantity and Price > 0
 
-
-
 2. Feature Engineering
 
 Compute TotalPrice = Quantity × Price
 
 Convert InvoiceDate to datetime
-
-
 
 3. RFM Metrics
 
@@ -71,25 +53,30 @@ Frequency: Number of unique invoices
 
 Monetary: Total amount spent
 
-
-
 4. Normalization
 
 Scale RFM features using StandardScaler
-
-
 
 5. KMeans Clustering
 
 Use Elbow Method to find optimal clusters (k)
 
 Apply KMeans with selected k (e.g., 4)
-
-
-
 6. Visualization
 
 2D plot: Recency vs Monetary
 
 3D plot: Recency, Frequency, Monetary with cluster coloring
+
+## Screenshots
+
+![customer segmentation](https://github.com/user-attachments/assets/e057611b-dffb-49a7-a0c2-8167472ab88b)
+
+![customer segmentation (2)](https://github.com/user-attachments/assets/5d41f358-afb7-45b4-b443-62745d55013b)
+
+![customer segmentation (3)](https://github.com/user-attachments/assets/91867567-2430-475d-8d6d-e16e54344374)
+
+## Demo
+
+https://github.com/user-attachments/assets/558b802c-ce90-41cd-b162-fc45534f1c05
 
